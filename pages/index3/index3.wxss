@@ -1,1 +1,17 @@
 /* pages/index3/index3.wxss */
+
+swiper {
+    height: 480rpx;
+}
+
+image{
+    width: 100%;
+}
+
+.navigator-hover {
+    color:blue;
+  }
+  .other-navigator-hover {
+    color:red;
+  }
+  

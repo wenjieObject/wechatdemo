@@ -1,0 +1,14 @@
+<view class="my_title">
+    <!-- logo -->
+    <navigator class="logo_nag" url="../../pages/index2">
+        <image src="../../icons/logo.png" class="logo_img" />
+    </navigator>
+    <view class="search_icon">
+        <image src="../../icons/search.png" class="search_img"></image>
+    </view>
+    
+    <view class="user_icon">
+        <image src="../../icons/播放记录.png" class="user_img"></image>
+    </view>
+    <view class="down_app">下载App</view>
+</view>

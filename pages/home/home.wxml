@@ -1,0 +1,26 @@
+<view>
+    <view class='search'>
+        <view bindtap='getScancode' class='searchItem'>
+            <image src='../../icons/search.png' />
+            <input placeholder='请点击扫描'></input>
+        </view>
+    </view>
+    <view wx:if="{{scanResult !=''}}">
+        <view>扫码的内容:{{scanResult}}</view>
+    </view>
+    <view class="content_item">
+        <view class="order">
+            <view class="orderText">2</view>
+        </view>
+        <view class="content_data">
+            <text>检验单号：123123123123</text>
+            <text>检验单号：123123123123</text>
+            <text>检验单号：123123123123</text>
+            <text>检验单号：123123123123</text>
+            <text>检验单号：123123123123</text>
+            <text>检验单号：123123123123</text>
+            <text>检验单号：123123123123</text>
+        </view>
+        <view class="content_status">待保养</view>
+    </view>
+</view>

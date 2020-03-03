@@ -1,0 +1,59 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    height: 100rpx;
+    background: #efeff4;
+    align-items: center;
+}
+ 
+.searchItem {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    flex-direction: row;
+    border-radius: 10rpx;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+ 
+.searchItem image {
+    height: 45rpx;
+    width: 45rpx;
+    align-self: center;
+    margin-left: 10rpx;
+}
+ 
+.searchItem input {
+    flex: 1;
+    height: 80rpx;
+    font-size: 38rpx;
+}
+
+.content_item{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+.order{
+    flex: 1;
+}
+.orderText{
+    background-color: blue;
+    border-radius: 20rpx;
+    width: 50rpx;
+    font-size: 40rpx;
+    color: #fff ;
+    align-content: center;
+}
+
+.content_data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    flex: 7;
+}
+
+.content_status{
+    font-size: 40rpx;
+    flex: 1;
+}

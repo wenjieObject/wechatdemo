@@ -1,4 +1,4 @@
-// pages/index2/index2.js
+// pages/index4/index4.js
 Page({
 
   /**
@@ -12,7 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
+
   },
 
   /**

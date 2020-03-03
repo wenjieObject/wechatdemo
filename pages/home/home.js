@@ -1,18 +1,34 @@
-// pages/index2/index2.js
+// pages/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    scanResult: ''
   },
 
+
+  getScancode() {
+    var _this = this; 
+    wx.scanCode({
+      success: (res) => {
+        var result = res.result;
+        _this.setData({
+          scanResult: result,
+        })
+      },
+      complete:(res)=>{
+        console.log(res);
+      }
+    })
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
+
   },
 
   /**
@@ -33,7 +49,7 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+    console.log('onHide');
   },
 
   /**
@@ -41,6 +57,7 @@ Page({
    */
   onUnload: function () {
 
+    console.log('onUnload');
   },
 
   /**

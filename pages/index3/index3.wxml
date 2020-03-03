@@ -1,2 +1,19 @@
-<!--pages/index3/index3.wxml-->
-<text>pages/index3/index3.wxml</text>
+<swiper autoplay>
+    <swiper-item>
+        <image mode="aspectFill" src="../../images/01.jpg" />
+    </swiper-item>
+    <swiper-item>
+        <image mode="aspectFill" src="../../images/02.jpg" />
+    </swiper-item>
+    <swiper-item>
+        <image mode="aspectFill" src="../../images/03.jpg" />
+    </swiper-item>
+</swiper>
+
+<!-- sample.wxml -->
+<view class="btn-area">
+  <navigator url="../index2/index2" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="../index2/index2" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="../index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+  <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">打开绑定的小程序</navigator>
+</view>
